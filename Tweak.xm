@@ -1,12 +1,8 @@
-#include <substrate.h>
-#import <dlfcn.h>
-
 @interface IGActivityStatusSetting
 -(BOOL)activityStatusEnabled;
 @end
 
 @interface IGActivityStatusSettingService
-@property (nonatomic, assign) IGActivityStatusSetting *cachedActivityStatusSetting;
 -(void)setActivityStatusSetting:(BOOL)setting successBlock:(id)success failureBlock:(id)failure;
 -(void)fetchActivityStatusSettingWithSuccessBlock:(id)success failureBlock:(id)failure;
 @end
