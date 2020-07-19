@@ -1,0 +1,10 @@
+Package: com.level3tjg.ezactivitytoggle
+Name: EZActivityToggle
+Version: 0.0.2
+Architecture: iphoneos-arm
+Description: Toggle activity status from the DM list in Instagram
+Depiction: https://level3tjg.xyz/repo/depictions/?p=com.level3tjg.ezactivitytoggle
+Maintainer: level3tjg
+Author: level3tjg
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
